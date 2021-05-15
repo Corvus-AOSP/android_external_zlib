@@ -128,6 +128,10 @@ cc_defaults {
             srcs: srcs_x86,
         },
     },
+	lto: {
+	    thin: true,
+	},
+
     target: {
         android_x86: {
             cflags: cflags_android_x86,
